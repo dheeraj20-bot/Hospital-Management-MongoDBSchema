@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const medicalRecordSchema = new  mongoose.Schema({
      name :{
         type:String,
-        required:true
+        required:true   
      },
      diagonsedWith:{
         type:String,
